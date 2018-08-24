@@ -1,0 +1,44 @@
+    1  useradd
+    2  ~~~das'
+
+ls
+useradd --help
+    3  useradd --help
+    4  apt-get install git
+    5  apt-get update && apt-get upgrade
+    6  git clone https://github.com/beluckydaf/oslabs
+    7  ls
+    8  cd oslabs/
+    9  ls
+   10  echo "# OSLabs" > README.md
+   11  git add README.md 
+   12  git commit -m "Initial commit"
+   13  git config --global user.email "beluckydaf@gmail.com"
+   14  git config --global user.name "Vladislav Smirnov"
+   15  git push -u origin master
+   16  git push
+   17  ls
+   18  git sync
+   19  git --help
+   20  git branch
+   21  ls
+   22  git checkout master
+   23  git checkout origin
+   24  git branch master
+   25  git branch m
+   26  git branch --help
+   27  git reset
+   28  ls
+   29  git push
+   30  git remote add origin https://github.com/beluckydaf/oslabs.git
+   31  mkdir week1
+   32  cd week1/
+   33  ls usr/bin | grep gcc | sort -r > ex1.txt
+   34  ls /usr/bin | grep gcc | sort -r > ex1.txt
+   35  ls ex1.txt
+   36  cat ex1.txt 
+   37  ls /usr/bin
+   38  apt-get install gcc
+   39  ls /usr/bin | grep gcc | sort -r > ex1.txt
+   40  cat ex1.txt 
+   41  history > ex2.txt
