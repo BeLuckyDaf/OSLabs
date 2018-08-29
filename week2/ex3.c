@@ -33,11 +33,12 @@ void print_wall(int n) {
 	}
 }
 
-int main() {
+int main(int argc, char** argv) {
 	int n, c;
-	printf("Please enter a number and your printing choice:\n");
+	printf("Please make your printing choice:\n");
 	printf("1. Slope\n2. Side Pyramide\n3. Default\n4. Wall\n");
-	scanf("%d%d", &n, &c);
+	sscanf(argv[1], "%d", &n);
+	scanf("%d", &c);
 	
 	switch(c) {
 		case 1:
