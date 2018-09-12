@@ -1,0 +1,60 @@
+#include <stdio.h>
+
+typedef struct Node {
+	int data;
+	struct Node* next;
+} Node;
+
+typedef struct LinkedList {
+	Node* head;
+} LinkedList;
+
+LinkedList* create_linked_list() {
+	LinkedList *list = (LinkedList*)malloc(sizeof(LinkedList));
+	list->head = NULL;
+}
+
+void print_list(LinkedList* list) {
+	if (!list || !list->head) return;
+	Node* item = list->head;
+	while(item) {
+		printf("%d ", list->data);
+		item = item->next;
+	}
+	printf("\n");
+}
+
+void insert_node(LinkedList* list, int data) {
+	if (!list) return;
+	if (!list->head) {
+		list->head = (Node*)malloc(sizeof(Node));
+		list->head->data = data;
+		list->head->next = NULL;
+	} else {
+		Node* last = list->head;
+		while(last->next) last = last->next;
+		#include <stdio.h>
+int main(){
+ int* pc;
+ int c;
+ c=22;
+ printf("Address of c:%d\n",&c);
+ printf("Value of c:%d\n\n",c);
+ pc=&c;
+ printf("Address of pointer pc:%d\n",pc);
+ printf("Content of pointer pc:%d\n\n",*pc);
+ c=11;
+ printf("Address of pointer pc:%d\n",pc);
+ printf("Content of pointer pc:%d\n\n",*pc);
+ *pc=2;
+ printf("Address of c:%d\n",&c);
+ printf("Value of c:%d\n\n",c);
+ return 0;
+}
+	}
+}
+
+int main() {
+	
+	return 0;
+}
