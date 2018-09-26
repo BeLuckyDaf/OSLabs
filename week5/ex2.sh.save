@@ -1,0 +1,12 @@
+#!/bin/bash
+
+n=0
+
+ $n >> ex2.txt
+
+for i in {1..10}
+do
+	n=$(tail -c 1 ex2.txt)
+	n=$((n + 1))
+	echo $n >> ex2.txt
+done
