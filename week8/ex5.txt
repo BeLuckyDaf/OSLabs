@@ -1,0 +1,3 @@
+I see physical address as a global, real address which always points to one and only one memory cell.
+Whereas, virtual address is a local address, an abstraction created to make it easy and safe for the software to operate on the memory,
+one virtual address can point to different memory cells in different situations. It is translated into a physical address.
