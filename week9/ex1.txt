@@ -1,0 +1,3 @@
+10: Hit/Miss ratio: 0.010101
+50: Hit/Miss ratio: 0.058201
+100: Hit/Miss ratio: 0.101322
