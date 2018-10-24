@@ -1,0 +1,6 @@
+Printing links for file: link1
+link1
+file1
+Printing links for file: file1
+link1
+file1

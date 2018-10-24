@@ -1,0 +1,5 @@
+COMMAND: find -inum 2233955 > ex2.txt
+OUTPUT: ./_ex2.txt
+
+COMMAND: find -inum 2233955 > ex2.txt -exec rm {} \;
+OUTPUT:
